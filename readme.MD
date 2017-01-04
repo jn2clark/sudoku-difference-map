@@ -1,5 +1,8 @@
 # Solving sudoku using iterated projections
 
+<img src="images/sudoku_dm.gif" width="520">
+
+
 ## Alternating Projections
 <img src="images/cvx-er.gif" width="520">
 
