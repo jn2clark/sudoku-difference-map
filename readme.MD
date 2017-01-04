@@ -3,6 +3,7 @@
 <img src="images/sudoku_dm.gif" width="400">
 
 
+
 ## Alternating Projections
 <img src="images/cvx-er.gif" width="520">
 
@@ -16,7 +17,7 @@ where <img src="https://rawgit.com/jn2clark/sudoku-difference-map/svgs/svgs/df5a
 
 The solution is found when
 <p align="center"><img src="https://rawgit.com/jn2clark/sudoku-difference-map/svgs/svgs/679186591f8b862e4f94d40ee0bff78b.svg?invert_in_darkmode" align=middle width=84.94629pt height=13.656621pt/></p>.
-The convexity of the constraints sets allows lots of general conclusions to be drawn, even if there is little knowledge about the individual sets.  Unfortunately, when the constraint sets are non-convex, very few general results hold. Consequently, rather than finding the global solution, using simple alternating projections can result in stagnation at local minima.  An example of this is shown below, where the sets from the previous example are made to be non-convex, and the ability to find the intersection (global minima) is now highly dependent on the initial guess.
+The convexivity of the constraints sets allows lots of general conclusions to be drawn, even if there is little knowledge about the individual sets.  Unfortunately, when the constraint sets are non-convex, very few general results hold. Consequently, rather than finding the global solution, using simple alternating projections can result in stagnation at local minima.  An example of this is shown below, where the sets from the previous example are made to be non-convex, and the ability to find the intersection (global minima) is now highly dependent on the initial guess.
 
 <img src="images/ncvx-er.gif" width="520">
 
@@ -24,10 +25,9 @@ Despite the loss of guarantees when the sets are no longer convex, projection me
 
 As I will discuss in the next section, to get projection methods to work with non-convex problems, the simple alternating projection algorithm needs to be modified.
 
-## The Difference Map
-One of the most successful non-convex projection algorithms is the difference map (DM).
 
-It is written as
+## The Difference Map
+One of the most successful non-convex projection algorithms is the difference map (DM).  It is written as
 <p align="center"><img src="https://rawgit.com/jn2clark/sudoku-difference-map/svgs/svgs/7247ecfb09bc63fdd66fe7d001f25ba8.svg?invert_in_darkmode" align=middle width=150.3645pt height=16.376943pt/></p>
 where
 <p align="center"><img src="https://rawgit.com/jn2clark/sudoku-difference-map/svgs/svgs/a1028b793282df0353b6462bef1574dd.svg?invert_in_darkmode" align=middle width=153.02892pt height=16.376943pt/></p>,
