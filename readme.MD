@@ -2,6 +2,7 @@
 
 <img src="images/sudoku_dm.gif" width="400">
 
+
 ## Alternating Projections
 <img src="images/cvx-er.gif" width="520">
 
