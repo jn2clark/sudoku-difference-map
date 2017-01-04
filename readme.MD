@@ -1,6 +1,6 @@
 # Solving sudoku using iterated projections
 
-<img src="images/sudoku_dm.gif" width="520">
+<img src="images/sudoku_dm.gif" width="400">
 
 
 ## Alternating Projections
