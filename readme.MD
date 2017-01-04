@@ -24,7 +24,6 @@ Despite the loss of guarantees when the sets are no longer convex, projection me
 
 As I will discuss in the next section, to get projection methods to work with non-convex problems, the simple alternating projection algorithm needs to be modified.
 
-
 ## The Difference Map
 One of the most successful non-convex projection algorithms is the difference map (DM).  It is written as
 <p align="center"><img src="https://rawgit.com/jn2clark/sudoku-difference-map/svgs/svgs/7247ecfb09bc63fdd66fe7d001f25ba8.svg?invert_in_darkmode" align=middle width=150.3645pt height=16.376943pt/></p>
