@@ -21,7 +21,6 @@ The convexivity of the constraints sets allows lots of general conclusions to be
 <img src="images/ncvx-er.gif" width="520">
 
 Despite the loss of guarantees when the sets are no longer convex, projection methods can prove very useful and powerful for finding solutions to non-convex optimization problems.  Examples include Sudoku, the n-queens problem , graph-coloring and phase retrieval.
-
 As I will discuss in the next section, to get projection methods to work with non-convex problems, the simple alternating projection algorithm needs to be modified.
 
 
